@@ -3,6 +3,7 @@
   "displayName": "Semantic Color Theme",
   "description": "A semantic color theme",
   "version": "0.0.1",
+  "publisher": "YasenEfremov",
   "engines": {
     "vscode": "^1.82.0"
   },
