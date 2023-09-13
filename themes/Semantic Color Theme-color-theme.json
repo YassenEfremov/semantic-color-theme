@@ -1,6 +1,7 @@
 {
 	"name": "Semantic Color Theme",
 	"colors": {
+		// Taken from from One Dark Pale
 		"input.background": "#1d1f23",
 		"dropdown.background": "#1d1f23",
 		"dropdown.border": "#181a1f",
@@ -83,7 +84,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#666666",
+				"foreground": "#7F848E",
 				"fontStyle": "italic"
 			}
 		},
@@ -109,6 +110,13 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#F06529"
+			}
+		},
+		{
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#4EC9B0",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -171,6 +179,12 @@
 				"foreground": "#D0AC55"
 			}
 		},
+		{
+			"scope": "string.json",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
 		// {
 		// 	"scope": "support",
 		// 	"settings": {
@@ -181,6 +195,12 @@
 			"scope": "variable",
 			"settings": {
 				"foreground": "#F2F2F2"
+			}
+		},
+		{
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#88AAEE"
 			}
 		}
 	]
