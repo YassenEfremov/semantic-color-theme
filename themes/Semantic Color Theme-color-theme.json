@@ -17,7 +17,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#FF3333"
 			}
 		},
 		{
@@ -59,6 +59,13 @@
 			}
 		},
 		{
+			"scope": "keyword.control.directive",
+			"settings": {
+				"foreground": "#966440",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#999999"
@@ -71,12 +78,6 @@
 				"fontStyle": "bold"
 			}
 		},
-		// {
-		// 	"scope": "meta",
-		// 	"settings": {
-		// 		"foreground": "#FF0000"
-		// 	}
-		// },
 		{
 			"scope": "storage.type",
 			"settings": {
